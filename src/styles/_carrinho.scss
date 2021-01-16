@@ -1,0 +1,57 @@
+.carrinho {
+  background: $cor2;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  margin: 40px auto 0;
+  padding: 64px;
+  width: 1000px;
+
+  .topo {
+    display: block;
+    border-bottom: 1px solid $cor3;
+
+    h2 {
+      @include roboto-bold(17px, $cor4);
+      display: inline-block;
+      padding: 0 64px 15px;
+      border-bottom: 2px solid $cor4;
+    }
+  }
+
+  .produto {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 0 48px;
+    border-bottom: 1px solid $cor3;
+
+    figure {
+      margin-right: 16px;
+
+      img {
+        height: 48px;
+        width: 48px;
+      }
+    }
+
+    .info {
+      display: flex;
+
+      h3 {
+        @include roboto-bold(20px, $cor4);
+        margin-bottom: 8px;
+      }
+
+      h4 {
+        @include roboto(14px, $cor5);
+      }
+    }
+
+    .quantidade {
+      // Seu código aqui
+    }
+
+    .valor {
+      @include roboto(24px, $cor4);
+    }
+  }
+}

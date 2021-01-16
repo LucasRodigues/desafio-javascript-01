@@ -1,0 +1,23 @@
+// Variavel
+$cor1: #ebebeb;
+$cor2: #fff;
+$cor3: #e6e6e6;
+$cor4: #333;
+$cor5: #00a650;
+$cor6: #999;
+$cor7: #3483fa;
+
+// Funcao
+@mixin roboto($size: 14px, $color: $cor2) {
+  font: $size 'Roboto', sans-serif;
+  color: $color;
+}
+
+@mixin roboto-bold($size: 14px, $color: $cor2) {
+  font: 600 $size 'Roboto', sans-serif;
+  color: $color;
+}
+
+// Import
+@import 'reset';
+@import 'carrinho';
