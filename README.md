@@ -7,15 +7,15 @@ Vamos replicar o carrinho de compras do e-commerce Mercado Livre de 2020.
 ## :fire: Checklist
 
 1. Crie o campo para mostrar a quantidade de produtos.
-1. Crie o botão de `Menos` e `Mais`.
-1. Crie o texto `21 disponíveis`.
-1. Altere o css para a quantidade ficar próximo da imagem abaixo:
+2. Crie o botão de `Menos` e `Mais`.
+3. Crie o texto `21 disponíveis`.
+4. Altere o css para a quantidade ficar próximo da imagem abaixo:
 
 ![Layout 1](layout-1.png)
 
-1. Quando clicar no botão `Menos`, o valor da quantidade deve diminuir em 1.
-1. Quando clicar no botão `Mais`, o valor da quantidade deve aumentar em 1.
-1. Quando a quantidade for alterada, mude o título do carrinho para ele mostrar o número total de produtos corretamente.
+5. Quando clicar no botão `Menos`, o valor da quantidade deve diminuir em 1.
+6. Quando clicar no botão `Mais`, o valor da quantidade deve aumentar em 1.
+7. Quando a quantidade for alterada, mude o título do carrinho para ele mostrar o número total de produtos corretamente.
 
 ## :trollface: Achou fácil?
 
