@@ -47,7 +47,35 @@
     }
 
     .quantidade {
-      // Seu código aqui
+      .quantidade-organizacao {
+        display: flex;
+        align-items: center;
+        border: 1px solid $cor3;
+        border-radius: 4px;
+        padding: 10px;
+
+        input {
+          @include roboto(14px, $cor7);
+          border: none;
+          background: transparent;
+          cursor: pointer;
+          outline: none;
+          width: 20px;
+        }
+
+        .quantidade-valor {
+          @include roboto(14px, $cor4);
+          width: 20px;
+          text-align: center;
+        }
+      }
+    }
+    
+    .estoque {
+      @include roboto(12px, $cor6);
+      display: block;
+      text-align: center;
+      margin-top: 10px;
     }
 
     .valor {

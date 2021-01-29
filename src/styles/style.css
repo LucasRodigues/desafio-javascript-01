@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: #ebebeb;
+}
+
+.carrinho {
+  background: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  margin: 40px auto 0;
+  padding: 64px;
+  width: 1000px;
+}
+
+.carrinho .topo {
+  display: block;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.carrinho .topo h2 {
+  font: 600 17px "Roboto", sans-serif;
+  color: #333;
+  display: inline-block;
+  padding: 0 64px 15px;
+  border-bottom: 2px solid #333;
+}
+
+.carrinho .produto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 44px 0 48px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.carrinho .produto figure {
+  margin-right: 16px;
+}
+
+.carrinho .produto figure img {
+  height: 48px;
+  width: 48px;
+}
+
+.carrinho .produto .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carrinho .produto .info h3 {
+  font: 600 20px "Roboto", sans-serif;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.carrinho .produto .info h4 {
+  font: 14px "Roboto", sans-serif;
+  color: #00a650;
+}
+
+.carrinho .produto .quantidade .quantidade-organizacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.carrinho .produto .quantidade .quantidade-organizacao input {
+  font: 14px "Roboto", sans-serif;
+  color: #3483fa;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  width: 20px;
+}
+
+.carrinho .produto .quantidade .quantidade-organizacao .quantidade-valor {
+  font: 14px "Roboto", sans-serif;
+  color: #333;
+  width: 20px;
+  text-align: center;
+}
+
+.carrinho .produto .estoque {
+  font: 12px "Roboto", sans-serif;
+  color: #999;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carrinho .produto .valor {
+  font: 24px "Roboto", sans-serif;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */

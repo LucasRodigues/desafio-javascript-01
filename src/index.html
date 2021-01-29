@@ -18,7 +18,7 @@
   <body>
     <div class="carrinho">
       <div class="topo">
-        <h2>Carrinho (1)</h2>
+        <h2 class="compra" >Carrinho (1)</h2>
       </div>
       <ul>
         <li class="produto">
@@ -32,7 +32,12 @@
             </div>
           </div>
           <div class="quantidade">
-            <!-- Seu código aqui -->
+            <div class="quantidade-organizacao" >
+              <input type="button" value="-" class="quantidade-menos" />
+              <span class="quantidade-valor" >1</span>
+              <input type="button" value="+" class="quantidade-mais" />  
+            </div>
+            <span class="estoque" >21 disponíveis</span>
           </div>
           <div class="valor">
             <span>R$349</span>
